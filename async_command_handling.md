@@ -55,7 +55,7 @@ In [State polling](state_polling.md), we introduced the response of `state` comm
 
 
 
-eg. If we send as `get_result` with a `take_picture` sequence id. The response looks like this
+eg. If we send an `get_result` command  with a `take_picture` sequence id. The response looks like this
 
 ```json
 {
