@@ -23,30 +23,34 @@ Camera supporting Insta360 Pro Camera API has a built-in http server.  You could
 
 
 
+## Documentations
 
++ [State Polling](state_polling.md)
 
-## Commands
++ [Async Command Handling](async_command_handling.md) 
 
-- [camera._connect](commands/connect_cmd.md)
++ [Commands](commands/overview.md)
 
-- [camera._setOptions](commands/set_options_cmd.md)
+  + [camera._connect](commands/connect_cmd.md)
 
-- [camera._getOptions](commands/get_options_cmd.md)
+  + [camera._setOptions](commands/set_options_cmd.md)
 
-- [camera._getImageParam](commands/get_image_param_cmd.md)
+  + [camera._getOptions](commands/get_options_cmd.md)
 
-- [camera._startPreview](commands/start_preview_cmd.md)
+  + [camera._getImageParam](commands/get_image_param_cmd.md)
 
-- [camera._stopPreview](commands/stop_preview_cmd.md)
+  + [camera._startPreview](commands/start_preview_cmd.md)
 
-- [camera._takePicture](commands/take_picture_cmd.md)
+  + [camera._stopPreview](commands/stop_preview_cmd.md)
 
-- [camera._startRecording](commands/start_record_cmd.md)
+  + [camera._takePicture](commands/take_picture_cmd.md)
 
-- [camera._stopRecording](commands/stop_record_cmd.md)
+  + [camera._startRecording](commands/start_record_cmd.md)
 
-- [camera._startLive](commands/start_live_cmd.md)
+  + [camera._stopRecording](commands/stop_record_cmd.md)
 
-- [camera._stopLive](commands/stop_live_cmd.md)
+  + [camera._startLive](commands/start_live_cmd.md)
 
-  
+  + [camera._stopLive](commands/stop_live_cmd.md)
+
+    

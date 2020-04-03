@@ -35,7 +35,7 @@
 
 ## Response
 
-`take_picture` is an async command. View [async command handling]() to learn how to handle the result.
+`take_picture` is an async command. View [Async command handling](../async_command_handling.md) to learn how to handle the result.
 
 ```json
 {

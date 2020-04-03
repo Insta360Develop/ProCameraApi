@@ -18,8 +18,8 @@ No parameter is need.
 
 ```json
 {
-"name":"camera._getImageParam"，
-“state”:"done"
+"name":"camera._getImageParam",
+"state":"done",
 "results":{
 	"aaa_mode":int,
 	“wb”:int,
