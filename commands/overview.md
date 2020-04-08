@@ -23,3 +23,36 @@ eg.
 
 ```
 
+
+
+Generally, the response contains `name` and `state`.  `state` indicates whether the request is successfully executed. The value is `done` on success, `exception` or `error` otherwise.
+
+eg.
+
+**On success**
+
+```json
+{
+	"name":"camera._connect",
+	"state":"done",
+  "results":{ //results contains the data returned by the command.
+   	... 
+  }
+}
+```
+
+
+
+**On failure**
+
+```json
+{
+  "name":"camera._connect",
+	"state":"exception",
+	"error":{ //error object contains the detailed error
+    "code":-1, //error code
+    "description":"The camera has been taken by another client."  //error description
+  }
+}
+```
+
