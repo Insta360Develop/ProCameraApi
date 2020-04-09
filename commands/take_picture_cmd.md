@@ -10,16 +10,16 @@
   "parameters":{
     "origin":{
       "mime":string, 
-      "width":int, 
-      "height":int,
+      "width":int, //single fisheye image width, eg. 4000
+      "height":int,//single fisheye image height, eg. 3000
       "saveOrigin":bool,
       "storage_loc":int //works for Titan,0:save on TF card 1：save on Main storage
     },
     "stiching":{
       "mode":string, 
       "mime":string, 
-      "width":int, 
-      "height":int, 
+      "width":int, //stitched image width, eg. 8000
+      "height":int, //stitched image height, eg.4000
       "map":string, 
       "algorithm":string //on-board stitching algorithm, available values are "opticalFlow" and "normal",default "normal"
     },
