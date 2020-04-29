@@ -52,4 +52,4 @@ Camera supporting Insta360 Pro Camera API has a built-in http server.  You could
   + [camera._startLive](commands/start_live_cmd.md)
 
   + [camera._stopLive](commands/stop_live_cmd.md)
-+ [Capabilites](capabilities.md)
++ [Capabilities](capabilities.md)
