@@ -15,8 +15,8 @@ Here are some common capabilities of  Insta360 Pro, Insta360 Pro2, Insta360 Tita
   | Single Lens Resolution | Max Output Resolution        | Support Real-time Stitching | Support 3D Output | Single Lens Bitrate |
   | ---------------------- | ---------------------------- | :-------------------------: | :---------------: | ------------------- |
   | 4000x3000 (Photo Only) | 8000x4000<br />8000x8000(3D) |              ✓              |         ✓         | -                   |
-  | 3840x2160@30fps        | 7680x3840                    |              ✓              |         ✗         | 1~40Mbps            |
-  | 3200x2400@30fps        | 6400x3200<br />6400x6400(3D) |              ✓              |         ✓         | 1~40Mbps            |
+  | 3840x2160@30fps        | 7680x3840                    |              ✗              |         ✗         | 1~40Mbps            |
+  | 3200x2400@30fps        | 6400x3200<br />6400x6400(3D) |              ✗              |         ✓         | 1~40Mbps            |
   | 2560x1440@30fps        | 5280x2560                    |              ✓              |         ✗         | 1~40Mbps            |
   | 1920x1440@30fps        | 3840x1920<br />3840x3840(3D) |              ✓              |         ✓         | 1~40Mbps            |
   | 1920x1440@60fps        | 3840x1920<br />3840x3840(3D) |              ✗              |         ✓         | 1~40Mbps            |
