@@ -53,22 +53,22 @@ For any capture command, `origin` , `stiching` and `audio` are three common para
   "name": "camera._startPreview",
 	"parameters":{
     "origin":{
-      "mime":string,
-      "width":int,
-      "height":int,
-      "framerate":int,
-      "bitrate":int
+      "mime":"h264",
+      "width":1920,
+      "height":1440,
+      "framerate":30,
+      "bitrate":20480 //Kbps
 	   },
     "stiching":{
-      "mode":string,
-      "mime":string,
-      "width":int,
-      "height":int,
-      "framerate":int,
-      "bitrate":int
+      "mode":"pano",
+      "mime":"h264",
+      "width":3840,
+      "height":1920,
+      "framerate":30, //should be the same as origin.framerate
+      "bitrate":10240 //Kbps
     },
 	},
-	“stabilization”:bool//whether apply stabilization on preview.
+    "stabilization":true //whether apply stabilization on preview.
 }
 ```
 
