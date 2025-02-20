@@ -5,7 +5,7 @@ Insta360 Pro Camera API defines a set of commands to control Insat360 Pro series
 | Model          | Link                                        |
 | :------------- | ------------------------------------------- |
 | Insta360 Pro   | http://insta360.com/product/insta360-pro/   |
-| Insta360 Pro2  | http://insta360.com/product/insta360-pro2/  |
+| Insta360 Pro 2  | http://insta360.com/product/insta360-pro2/  |
 | Insta360 Titan | http://insta360.com/product/insta360-titan/ |
 
 The commands are transferred via http request/response, the data is encoded in JSON format.
